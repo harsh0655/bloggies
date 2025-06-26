@@ -29,8 +29,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     res.status(200).json({id: session.id});
   } 
-  catch(err){
-    // console.error("error in stripe:", err);
-    res.status(500).json({error: "Stripe checkout/payment failed"});
-  }
+  catch (_err) {
+    res.status(500).json({ error: "Stripe checkout/payment failed" });
+  }  
 }

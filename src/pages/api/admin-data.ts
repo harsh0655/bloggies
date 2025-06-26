@@ -2,7 +2,7 @@ import type{NextApiRequest} from "next";
 import type{NextApiResponse} from "next";
 
 
-let mockUserData: Record<string,{credits: number; raffleEntries: number}> 
+const mockUserData: Record<string,{credits: number; raffleEntries: number}> 
 = {
   user123:{credits: 3, raffleEntries:2 },
   test456:{credits: 5, raffleEntries:1 },

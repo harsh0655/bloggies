@@ -14,6 +14,7 @@ export async function removeUser(userId: string){
   return safePost(`${BASE_URL}/api/remove-user`,{userId });
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function safePost(url:string, data: any, retries = 2):Promise<any>{
   try{
     const response = await axios.post(url, data);
