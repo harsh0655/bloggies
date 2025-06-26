@@ -4,7 +4,7 @@ Internship Project for **Alatree Ventures**
 
 ## Deployment
 This project is deployed on Vercel:
-🔗 https://bloggies-credit-system.vercel.app
+🔗 [https://bloggies-credit.vercel.app](https://bloggies-credit.vercel.app/)
 
 Bloggies is a modern, AI-inspired content ecosystem built with **Next.js**, featuring:
 
