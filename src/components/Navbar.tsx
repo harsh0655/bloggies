@@ -16,27 +16,27 @@ export default function Navbar() {
         <nav className="hidden md:flex space-x-8 gap-x-4">
             <Link
               href="/"
-              className="text-yellow-900  transition-colors duration-200">
+              className="text-black  transition-colors duration-200">
               Home
             </Link>
             <Link
               href="/signup"
-              className="text-yellow-900  transition-colors duration-200">
+              className="text-black  transition-colors duration-200">
               Sign Up
             </Link>
             <Link
               href="/checkout"
-              className="text-yellow-900  transition-colors duration-200">
+              className="text-black  transition-colors duration-200">
               Checkout
             </Link>
             <Link
               href="/admin"
-              className="text-yellow-900  transition-colors duration-200">
+              className="text-black  transition-colors duration-200">
               Admin
             </Link>
             <Link
               href="/optout"
-              className="text-yellow-900 hover:text-purple-600 transition-colors duration-200">
+              className="text-black hover:text-purple-600 transition-colors duration-200">
               Opt-Out
             </Link>
           </nav>
