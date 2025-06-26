@@ -13,7 +13,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-        <nav className="hidden md:flex space-x-8 gap-x-4">
+        <nav className="flex space-x-8 gap-x-4">
             <Link
               href="/"
               className="text-red-900  transition-colors duration-200">
