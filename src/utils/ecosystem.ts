@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import axios from "axios";
 const BASE_URL = "/api";
 
@@ -15,7 +18,7 @@ export async function removeUser(userId: string){
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-async function safePost(url:string, data: any, retries = 2):Promise<any>{
+async function safePost(url: string, data: object, retries = 2): Promise<any> {
   try{
     const response = await axios.post(url, data);
     return response.data;
